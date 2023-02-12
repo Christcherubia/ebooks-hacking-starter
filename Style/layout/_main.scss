@@ -1,0 +1,33 @@
+main {
+    @include center;
+
+    .header-container {
+        font-family: $bold;
+        font-size: 2rem;
+
+        h1 {
+            text-transform: capitalize;
+
+            @media screen and(max-widht: 950px) {
+                 font-size: 1.5rem;
+            }
+        }
+
+        p {
+            font-size: 1.9rem;
+            text-decoration: underline;
+
+            @media screen and(max-widht: 950px) {
+                padding: 75px;
+           }
+        }
+
+    }
+    .section-container {
+        border: 1px solid $color3;
+        margin: 50px;
+        padding: 15px;
+        border-radius: 3px;
+        text-shadow: 0.7px 0.8px 0.9px $color2;
+    }    
+}

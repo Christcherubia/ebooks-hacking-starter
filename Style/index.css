@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "SansPro-Regular";
+  src: url(./fonts/SourceSansPro-Regular.ttf);
+}
+@font-face {
+  font-family: "SansPro-Bold";
+  src: url(./fonts/SourceSansPro-Bold.ttf);
+}
+* {
+  background: rgb(241, 231, 184);
+  margin: 0 auto;
+}
+
+body {
+  box-sizing: border-box;
+  box-shadow: 1px 2px 3px rgba(54, 52, 52, 0.849);
+  font-family: "SansPro-Regular", sans-serif;
+  font-size: 1.8rem;
+  margin: 150px;
+}
+
+main {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+main .header-container {
+  font-family: "SansPro-Bold", serif;
+  font-size: 2rem;
+}
+main .header-container h1 {
+  text-transform: capitalize;
+}
+@media screen and (max-widht: 950px) {
+  main .header-container h1 {
+    font-size: 1.5rem;
+  }
+}
+main .header-container p {
+  font-size: 1.9rem;
+  text-decoration: underline;
+}
+@media screen and (max-widht: 950px) {
+  main .header-container p {
+    padding: 75px;
+  }
+}
+main .section-container {
+  border: 1px solid rgb(66, 112, 131);
+  margin: 50px;
+  padding: 15px;
+  border-radius: 3px;
+  text-shadow: 0.7px 0.8px 0.9px rgba(54, 52, 52, 0.849);
+}/*# sourceMappingURL=index.css.map */

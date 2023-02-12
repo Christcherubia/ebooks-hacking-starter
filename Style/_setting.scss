@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "SansPro-Regular";
+    src: url(./fonts/SourceSansPro-Regular.ttf);
+}
+@font-face {
+    font-family: "SansPro-Bold";
+    src: url(./fonts/SourceSansPro-Bold.ttf);
+}
+$regular: "SansPro-Regular", sans-serif;
+$bold: "SansPro-Bold", serif;
+
+$color1: rgb(241, 231, 184);
+$color2: rgba(54, 52, 52, 0.849);
+$color3: rgb(66, 112, 131);
+
+* {
+    background: $color1;
+    margin: 0 auto;
+}
+
+@mixin center {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+body {
+    box-sizing: border-box;
+    box-shadow: 1px 2px 3px $color2;
+    font-family: $regular;
+    font-size: 1.8rem;
+    margin: 150px;
+}
